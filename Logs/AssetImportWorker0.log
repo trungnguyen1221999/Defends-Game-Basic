@@ -15,7 +15,7 @@ C:/Defends-Game-Basic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49560
+52469
 Successfully changed project path to: C:/Defends-Game-Basic
 C:/Defends-Game-Basic
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,14 +49,14 @@ C:/Defends-Game-Basic
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24008]  Target information:
+Player connection [10660]  Target information:
 
-Player connection [24008]  * "[IP] 10.20.12.61 [Port] 0 [Flags] 2 [Guid] 1550330550 [EditorId] 1550330550 [Version] 1048832 [Id] WindowsEditor(7,VUOKSI-DT-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10660]  * "[IP] 10.20.12.61 [Port] 0 [Flags] 2 [Guid] 535102281 [EditorId] 535102281 [Version] 1048832 [Id] WindowsEditor(7,VUOKSI-DT-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24008] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10660] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10660] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 47.18 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 84.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.49f1 (4dae1bb8668d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Resources/UnitySubsystems
@@ -72,44 +72,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.49f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.048594 seconds.
-- Loaded All Assemblies, in  0.644 seconds
+Registered in 0.052092 seconds.
+- Loaded All Assemblies, in  0.916 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.353 seconds
-Domain Reload Profiling: 985ms
-	BeginReloadAssembly (234ms)
+- Finished resetting the current domain, in  0.431 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (341ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (52ms)
+	RebuildCommonClasses (98ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (150ms)
-	LoadAllAssembliesAndSetupDomain (182ms)
-		LoadAssemblies (221ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (328ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (276ms)
+				TypeCache.ScanAssembly (249ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (354ms)
+	FinalizeReload (432ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (297ms)
+		SetupLoadedEditorAssemblies (349ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (197ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			ProcessInitializeOnLoadAttributes (224ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,54 +118,54 @@ Domain Reload Profiling: 985ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.248 seconds
+- Loaded All Assemblies, in  1.562 seconds
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.902 seconds
-Domain Reload Profiling: 2128ms
-	BeginReloadAssembly (266ms)
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 2517ms
+	BeginReloadAssembly (307ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (22ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (100ms)
-	LoadAllAssembliesAndSetupDomain (796ms)
-		LoadAssemblies (751ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (108ms)
+	LoadAllAssembliesAndSetupDomain (1043ms)
+		LoadAssemblies (1003ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (231ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (176ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (193ms)
 			ScanForSourceGeneratedMonoScriptInfo (26ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (902ms)
+	FinalizeReload (990ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (724ms)
+		SetupLoadedEditorAssemblies (816ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (469ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (39ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (540ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (43ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.60 seconds
-Refreshing native plugins compatible for Editor in 18.52 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.74 seconds
+Refreshing native plugins compatible for Editor in 23.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3944 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (241.2 KB). Loaded Objects now: 4407.
-Memory consumption went from 138.7 MB to 138.5 MB.
-Total: 4.732400 ms (FindLiveObjects: 0.422000 ms CreateObjectMapping: 0.113300 ms MarkObjects: 3.918900 ms  DeleteObjects: 0.277100 ms)
+Unloading 38 unused Assets / (241.7 KB). Loaded Objects now: 4408.
+Memory consumption went from 138.8 MB to 138.6 MB.
+Total: 4.417400 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.116000 ms MarkObjects: 3.590000 ms  DeleteObjects: 0.250100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,174 +182,474 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 275253.647347 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Scenes/Demo Defend.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Scenes/Demo Defend.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b71c16dc09750b2ccbf8e2c578590612') in 0.003087 seconds
+  Time since last request: 605266.239332 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99efbd6f890c78feed5ac2d53e962574') in 0.209997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 151
+========================================================================
+Received Import Request.
+  Time since last request: 1.635842 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '616c03b8114f807cadc083d81d5fd200') in 0.064788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 151
+========================================================================
+Received Import Request.
+  Time since last request: 6.189221 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbf68941e266f76bcdd5e3911cc39675') in 0.069604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 32.576625 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8584e053e79a498f4becff4674ed7a3') in 0.065033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 3.148162 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddfc786c765844d5ec188ecac1e7721f') in 0.064292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 49.393610 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a6684125d72b5eac2adc48b8d5678b2') in 0.066293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 3.142830 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f5e47f9fd4a34eeb21c7bf12b10dc651') in 0.063269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 73.924586 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16a69340e55a1e361810fcd2a061b517') in 0.199567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 2.599902 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d460c030a8869c46ce02186e2f08b81') in 0.068151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 7.590880 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '04b4621c0755b8fd988e6d3543faf296') in 0.070020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 2.152540 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be4612ba125fe90228936a66e9deb456') in 0.071153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 5.759135 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae6b7d70f2380430327d03112a570a1d') in 0.065269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 12.998492 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0d7211a9636e51bdf20f067bf878d55') in 0.064454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 6.800133 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '572df0fca1679f3f4aef1a9ca34db5c3') in 0.064013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 7.202239 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd992708e174f448d29e69a2040e07cd7') in 0.074820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 26.635074 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f1b7a7fc8795e0bc3b6355f13af8a1c') in 0.254075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 1.945167 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7feda9b7852e2cfa9b95f2825032914d') in 0.089433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time since last request: 2.733925 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f207e1736b1e56b904c3a3fecc3a7de') in 0.101661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time since last request: 4.730480 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a1bc34e7af1cffced6888e1ac42928a') in 0.095526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time since last request: 6.364806 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b866df50d2e056e87b1fb1653d8bcb1') in 0.095805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time since last request: 2.127428 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2233b80d4c9a714282b4540b6a68a0dd') in 0.110355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time since last request: 19.826370 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b8f65e2ae15c755dae5ee57e279f42d') in 0.232860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 3.494758 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e68bdffcde14a419016ac4d327d4e06b') in 0.087246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 4.144330 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7326f12d86927b621678789a1dd76d16') in 0.093696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 11.490083 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bb675db3a7d2737274fc0c231603dce7') in 0.089386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 3.738455 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c7c515cc7343c641bd411ec587e733b7') in 0.084599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 5.763403 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '35b7d26895a05bca548f4415cae2c9a7') in 0.084609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 3.140026 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab
+  artifactKey: Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_2.prefab using Guid(db64bd1bb965e62438da87acfbb68017) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd3d22b55fd02a4207eacbebebf1950cf') in 0.093066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 202
+========================================================================
+Received Import Request.
+  Time since last request: 13.121250 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0f8adeb8dee1a5a0b83f8e0a9b4a819') in 0.205450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 189
+========================================================================
+Received Import Request.
+  Time since last request: 0.990053 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd0abccca9e84114c8421296fd63b16c8') in 0.088671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 2.491548 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3ccffa86a30d58e96f971f377dd244a') in 0.084399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 17.300197 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '579b04aa3afe325241a02c85369ad239') in 0.080711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 4.562268 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c452333bc63a0c1bc1bd1bae0ad0dc31') in 0.079070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 1.728152 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2bed566b03ebf94d76226aa131d09fd') in 0.085878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 3.977120 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a4400f873460e2a21ec3afbed82c6d7c') in 0.088920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 14.011913 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bab913dea616a9d704a831e8a72117e4') in 0.081995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 209.425777 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab
+  artifactKey: Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_2.prefab using Guid(5b587502f7497be429636604c773c7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fabd5aa751904cd9794e4d7c0396371') in 0.071562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 34.912780 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab
+  artifactKey: Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Hero/Hero_3.prefab using Guid(a331937bbf0cbfa4b901fb3943dbf2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b138987ff2ab43933c3c3c0fae31ab01') in 0.100601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 223
+========================================================================
+Received Import Request.
+  Time since last request: 232.078387 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy/Enemy_3/Enemy_3.controller
+  artifactKey: Guid(f3c37f285ec7aa64d8fd701a6a10a58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy/Enemy_3/Enemy_3.controller using Guid(f3c37f285ec7aa64d8fd701a6a10a58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28950cbe9465b6b373a2a9a7125c3872') in 0.003730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 47.285221 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab
+  artifactKey: Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_1.prefab using Guid(8662d9a6da5ad6241b9406967713084d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4b628df2e171439deff3925f74a07887') in 0.069026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '81b5481469a2a388820deaefdf8d8621') in 0.088902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 14.674181 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab
+  artifactKey: Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Prefabs/Enemy/Enemy_3.prefab using Guid(2944f784e00f03d46b1c6884145655ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '43642164484e48133c846518b1b14f28') in 0.085076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 194
+========================================================================
+Received Import Request.
+  Time since last request: 25.615720 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy
+  artifactKey: Guid(cfef30ad2f6f97c4f9d9e8c9c0fea670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy using Guid(cfef30ad2f6f97c4f9d9e8c9c0fea670) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '60f8ce83703e3c098269ccaca3df161e') in 0.001030 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.462642 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Invironment
-  artifactKey: Guid(e37c7385f21584d468ed251239381524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Invironment using Guid(e37c7385f21584d468ed251239381524) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5c48bb7ec331b4a547a67b4639f08144') in 0.001145 seconds
+  Time since last request: 0.915793 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy/Enemy_3
+  artifactKey: Guid(350efc1e5e5c6c74eadf3bfd0f3998d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy/Enemy_3 using Guid(350efc1e5e5c6c74eadf3bfd0f3998d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5280182370ad4c624d5d493a3cf643fa') in 0.000718 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.066956 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Invironment/Sample.png
-  artifactKey: Guid(0aa4cf6a72464474096ffa0b58e538f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Invironment/Sample.png using Guid(0aa4cf6a72464474096ffa0b58e538f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e382e4187bc329bb689d835a4eb563e5') in 0.167425 seconds
+  Time since last request: 2.368483 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy/Enemy_3/Walking.anim
+  artifactKey: Guid(0b73163abb8aa7445954a00a1b54c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Animation/Enemy/Enemy_3/Walking.anim using Guid(0b73163abb8aa7445954a00a1b54c8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c18c28dd21a39ff952a4dc9072978445') in 0.002355 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 79.696660 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Barrack_box.png
-  artifactKey: Guid(ceb277f26d1c2374eb0aeb6653e6bfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Barrack_box.png using Guid(ceb277f26d1c2374eb0aeb6653e6bfbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e3257a408c0ca24de35532f20a5c7db7') in 0.014105 seconds
+  Time since last request: 15.670005 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Enemy
+  artifactKey: Guid(dbbe6b71f600e6947a991ae0396167e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Enemy using Guid(dbbe6b71f600e6947a991ae0396167e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a20aebcd5a47e5ce09cf704a6cdbae39') in 0.000891 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.021790 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/GoldBar.png
-  artifactKey: Guid(1d0e12c892b4af94384fbe1ae860335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/GoldBar.png using Guid(1d0e12c892b4af94384fbe1ae860335f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '99d3af456a09134959cedddd086fee46') in 0.013488 seconds
+  Time since last request: 1.014142 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Enemy/03
+  artifactKey: Guid(39d352ba8f3524d429a24ea1fdb0e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Enemy/03 using Guid(39d352ba8f3524d429a24ea1fdb0e183) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '49a9cea762acae49166914552bcfd6fc') in 0.001072 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Option_icon.png
-  artifactKey: Guid(cb790c58da1dcff4a84fa4c9728c7fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Option_icon.png using Guid(cb790c58da1dcff4a84fa4c9728c7fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4ce164e6aca91c35955b41ff7ba2b7d7') in 0.019353 seconds
+  Time since last request: 1.069732 seconds.
+  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Enemy/03/Walk
+  artifactKey: Guid(402979aadbcbf4e44baea32081c021e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Enemy/03/Walk using Guid(402979aadbcbf4e44baea32081c021e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd35bbb57711723ec9e5038b8b2b3a06') in 0.000725 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Heroes_icon.png
-  artifactKey: Guid(a7eb1b62e194bcd43be8a202e63396a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Heroes_icon.png using Guid(a7eb1b62e194bcd43be8a202e63396a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2b8dc5e3fcf0647aa6888818d8365611') in 0.011788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/CoinPack_box.png
-  artifactKey: Guid(3e177af534bb54a499d379e8572d027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/CoinPack_box.png using Guid(3e177af534bb54a499d379e8572d027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ba3d834bdc5fad02dd86ed91cebdf134') in 0.016440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Heroes_empty_images.png
-  artifactKey: Guid(d2748a48d2be7044c97515a7499758a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Heroes_empty_images.png using Guid(d2748a48d2be7044c97515a7499758a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fdb7dbb46778bb72a4a36372bddec016') in 0.014108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/MusicIcon.png
-  artifactKey: Guid(836d0e13bdf666d42b3596e6355990ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/MusicIcon.png using Guid(836d0e13bdf666d42b3596e6355990ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '457f62c7ef58b7919c62b552aefe85f0') in 0.022134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Close_btn.png
-  artifactKey: Guid(910e3460f7ec00849b8ef3e669cef054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Close_btn.png using Guid(910e3460f7ec00849b8ef3e669cef054) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a48460f0336cf4a68ac4b444bc817f39') in 0.014826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Green_Btn1.png
-  artifactKey: Guid(0e80ebd45ed79ea4d9ea579540e3a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/GUI/Green_Btn1.png using Guid(0e80ebd45ed79ea4d9ea579540e3a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '607b4712bf3b3b1cd9a233eec9931e66') in 0.016629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 12.289061 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_01.png
-  artifactKey: Guid(ede08743776fefa4f9cf3e0f144c1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_01.png using Guid(ede08743776fefa4f9cf3e0f144c1c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bb9b9253e75726e0b6a6d933c88f5585') in 0.021068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_03.png
-  artifactKey: Guid(8940e1ad29df82643bd02f47477ffe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_03.png using Guid(8940e1ad29df82643bd02f47477ffe92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '97935e81295ad6415cb70269a506d51d') in 0.030335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_11.png
-  artifactKey: Guid(ebc3fa2ab4e717a4d8deee228cb2d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_11.png using Guid(ebc3fa2ab4e717a4d8deee228cb2d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '914b149a333048aa90e46751fe3e689c') in 0.029129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_04.png
-  artifactKey: Guid(9d1ee462ac9a31b47b8c107e19a887e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_04.png using Guid(9d1ee462ac9a31b47b8c107e19a887e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9f4b9d3627497900f8afc95cbb362f3c') in 0.058078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_07.png
-  artifactKey: Guid(be0e1e9dd6518244fbb145ac3cd90928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TRUNG NGUYEN/Defend Game Basic/Arts/Sprites/Hero/01/Idle/Idle_07.png using Guid(be0e1e9dd6518244fbb145ac3cd90928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '09ba6216cd407bc3537c87db38250dbc') in 0.066951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: I/O-toiminto keskeytettiin joko säikeen poistumisen tai sovelluksen pyynnön vuoksi.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 0
